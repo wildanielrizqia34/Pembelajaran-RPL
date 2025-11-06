@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        .box {
+            background-color: red;
+            position: absolute;
+            top: 500px;
+        }
+
+        .tinggi {
+            height: 150px;
+        }
+
+        .lebar {
+            width: 100px;
+        }
+
+        .box-1 {
+            background-color: yellow;
+        }
+
+        .box-2 {
+            background-color: forestgreen;
+        }
+
+        .box-3 {
+            background-color: navy;
+        }
+
+        .batas-atas {
+            margin-top: 30px;
+        }
+
+        .batas-bawah {
+            margin-bottom: 30px;
+        }
+
+        .batas-dalam-atas {
+            padding-top: 30px;
+        }
+
+        .batas-dalam-bawah {
+            padding-bottom: 30px;
+        }
+
+        .batas-kiri {
+            margin-left: 30px;
+        }
+
+        .batas-kanan {
+            margin-right: 30px;
+        }
+
+        .batas-dalam-kiri {
+            padding-left: 30px;
+        }
+
+        .batas-dalam-kanan {
+            padding-right: 30px
+        }
+    </style>
+</head>
+<body>
+    <div id="rumah">
+        <div class="jarak huruf" style=" background-color: blue; ">
+            identitas
+            <p>
+                Nama: Wildaniel Rizqia R.
+            </p>
+            <p>
+                TTL: 19-09--2009/ Sidoarjo, Jawa Timur
+            </p>
+        </div>
+        <div style="background-color: darkmagenta;">
+        </div>
+        <div class="huruf jarak" style="background-color: blueviolet; ">
+            Riwayat Pendidikan
+            <p>
+                SD: SDN Sidoklumpuk
+            </p>
+            <p>
+                SMP: SMPN 2 Sidoarjo
+            </p>
+            <P>
+                SMA: SMKN 2 Buduran 
+            </P>
+        </div>
+        <div class= "huruf jarak" style="background-color: chartreuse; ">
+            AWKWKWKWZ
+            <p>
+                Hobi: Compe & Bantai Jiwa Jiwa Masuk LCD
+            </p>
+                <div id="rumah">
+        <a href="pages/profil.html">Riwayat & Bukti </a>
+                </div>
+        </div>
+    </div>
+
+    <div class="box batas-dalam-atas batas-dalam-kiri batas-dalam-bawah">
+        <div class="box-1 lebar tinggi batas-bawah batas-dalam-atas batas-dalam-bawah batas-dalam-kiri">box-1</div>
+        <div class="box-2 lebar tinggi batas-bawah batas-dalam-atas batas-dalam-bawah batas-dalam-kiri">box-2</div>
+        <div class="box-3 lebar tinggi batas-bawah batas-dalam-atas batas-dalam-bawah batas-dalam-kiri">box-3</div>
+    </div>
+</body>
+</html>
